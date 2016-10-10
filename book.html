@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <title>圖書館借書系統</title>
+  <style>
+  table, th, td{
+   border: 1px solid black;
+  }
+  #borrow{
+   margin-left:40px;
+}
+  </style>
+ </head>
+ <body>
+  <h1>圖書館借書系統</h1>
+
+  <br>
+  <form>
+
+  <strong>書名:</strong>
+   <input type="text" name="bookName" value="bookName">
+
+  <br>
+
+  <strong>姓名:</strong>
+   <input type="text" name="userName" value="userName">
+
+  <br>
+
+  <strong>性別:</strong>
+   <input name = "gender" type = "radio" value = "男">男
+   <input name = "gender" type = "radio" value = "女">女
+  <br>
+
+  <strong>學系:</strong>
+   <select class="form-control" name="department">
+    <option>資工</option>
+    <option>電機</option>
+    <option>通訊</option>
+   </select>
+  <br>    
+   <button type="button" id="borrow">借書</button>
+   <button type="reset">重設</button>
+  </form>
+ </body>
+</html>
